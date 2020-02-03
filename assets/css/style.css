@@ -2,6 +2,10 @@
 *{
     box-sizing: border-box;
 }
+html,body{
+    height: 100%;
+    margin: 0;
+}
 
 
 body {
@@ -10,11 +14,14 @@ body {
     padding:0;
 }
 
-h2{
-    padding: 20px;
+h3{
+    padding: 15px;
     color:#4aaaa5;
-    font-size: 30px;
-
+    font-size: 20px;
+    margin: 0;
+}
+hr{
+    margin-top: 0;
 }
 #myphoto{
     width:180px;
@@ -38,11 +45,18 @@ h2{
 
 .navbar{
     padding : 10px;
-    margin-left: 85px;
-    margin-right: 85px;
+    margin-left: 0;
+    margin-right: 0;
     border-style: solid;
     border-color: #4aaaa5;
+    border-width: 2px;
     margin-top: 20px;
+    border-radius: 5px;
+}
+
+.navbar-brand{
+    
+    font-size: 130%;
 }
 
 
@@ -57,6 +71,9 @@ h2{
         border-top-width: 10px;
         border-top-color: #4aaaa5;
         
+    }
+    .push{
+        height: 40px;
     }
 
     .footerContainer {
@@ -104,15 +121,17 @@ h2{
 
 
 .content{
-    min-height: calc(100vh - 40px);
+    /* min-height: calc(100vh - 40px); */
+    min-height: 100%;
+    margin-bottom: -40px;
 }
 
 #body{
-    border-style: solid;
+    /* border-style: solid;
     border-color: #dddddd;
     border-top: #cccccc;
-    border-width: thin;
-    width:100%;
+    border-width: thin; */
+    /* width:100%; */
     /* position:relative; */
     /* left:140px; */
     margin-bottom: 50px;
@@ -158,4 +177,10 @@ input{
 
     }
    
+}
+
+@media screen and (min-width: 576px){
+.container{
+    max-width: 80%;
+}
 }
