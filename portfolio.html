@@ -6,9 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
-   
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
     <link rel="stylesheet" href="assets/css/style.css"> 
 
@@ -39,8 +38,6 @@
                 </div>
         </nav>
 
-    
-
         <div class="main-content">
 
             <div class="row">
@@ -52,62 +49,77 @@
 
             
             <div class="row">
-                <div class="col-sm-4">
-                    <div id="portfolio-img-container">
-                        <img id= "img1" src= "assets/images/Image1.jpg">
-                        <a class=overlayText href="https://kulkdeepika.github.io/Code-Quiz/">
-                            <p>Code Quiz</p>
-                        </a>
-                    </div>
+                <div id="cardId" class="col-8 col-sm-8 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                          More about my work
+                        </div>
+                        <div class="card-body">
+                          <h6 class="card-subtitle mb-2 text-muted card-info"><a id="gitLink" href="https://github.com/kulkdeepika" target="_blank"><i class="fab fa-github"></i><span> GitHub</span></a></h6>
+                          <h6 class="card-subtitle mb-2 text-muted card-info"><a id="linkedInLink" href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i><span> LinkedIn</span></a></h6>
+                          <h6 class="card-subtitle mb-2 text-muted card-info"><a id="resumeLink" href="https://drive.google.com/file/d/1yHQLxi8SMhI6NLxP2kMfBMdACzZ-Kjfp/view?usp=sharing" target="_blank"><i class="fas fa-file-pdf"></i><span> Resume</span></a></h6>
+                        </div>
+                      </div>
+                    
                 </div>
 
-                <div class="col-sm-4">
-                        <div id="portfolio-img-container">
-                            <img id= "img2" src= "assets/images/Image2.jpg">
-                            <a class=overlayText href="">
-                                <p>Project2</p>
-                            </a>
-                        </div>      
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div id="portfolio-img-container">
+                        <img id= "img1" src= "assets/images/Image1.jpg">
+                        <a class=overlayText href="https://kulkdeepika.github.io/Code-Quiz/" target="_blank">
+                            Code Quiz
+                        </a>
+                    </div>
+                    <a class="repoLink" href="https://github.com/kulkdeepika/Code-Quiz" target="_blank">Repository</a>
                 </div>
                     
-                    <div class="col-sm-4">
-                            <div class="w-25"><!--spacer--></div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div id="portfolio-img-container">
+                            <img id= "img2" src= "assets/images/Image2.jpg">
+                            <a class=overlayText href="https://kulkdeepika.github.io/Weather-Dashboard-with-LocationTracking/" target="_blank">
+                                Weather Dashboard
+                            </a>
+                        </div>     
+                        <a class="repoLink" href="https://github.com/kulkdeepika/Weather-Dashboard-with-LocationTracking" target="_blank">Repository</a> 
                     </div>
             </div>
                     
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                     <div id="portfolio-img-container">
                         <img id= "img3" src= "assets/images/Image3.jpg">
-                        <a class=overlayText href="">
-                            <p>Project3</p>
+                        <a class=overlayText href="https://kulkdeepika.github.io/ChampionsLeague-Tracker/" target="_blank">
+                            Champions League Tracker
                         </a>
-                    </div>       
+                    </div>     
+                    <a class="repoLink" href="https://github.com/kulkdeepika/ChampionsLeague-Tracker" target="_blank">Repository</a>  
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                     <div id="portfolio-img-container">
                         <img id= "img4" src= "assets/images/Image4.jpg">
                         <a class=overlayText href="">
                             <p>Project4</p>
                         </a>
                     </div>        
+                    <a class="repoLink" href="#">Repository</a>
                 </div>
 
-                <div class="col-sm-4">
-                        <div class="w-25"><!--spacer--></div>
-                </div>
-            </div>
-
-
-            <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                     <div id="portfolio-img-container">
                         <img id= "img5" src= "assets/images/Image5.jpg">
                         <a class=overlayText href="">
                             <p>Project5</p>
                         </a>
+                        <a class="repoLink" href="#">Repository</a>
                     </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-sm-4 col-md-6 col-lg-4">
+                   
                 </div>
 
                 <div class="col-sm-4">
@@ -126,13 +138,11 @@
 
 </div>
 
-
-
-    <footer class="footer">
-            <div class="footerContainer">
-                    Copyright ©
-            </div>
-    </footer>
+<footer class="footer">
+    <div class="footerContainer">
+            <p style="font-size: small; margin-left:48%;">  Copyright © </p> 
+    </div>
+</footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
