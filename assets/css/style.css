@@ -25,8 +25,14 @@ hr{
 }
 #myphoto{
     width:180px;
-    height:200px;
-    
+    height:220px;
+    float: left;
+    margin-right: 15px;   
+}
+
+#email, #phNum{
+    font-size: small;
+    color: darkslategray;
 }
 
 .main-content{
@@ -44,7 +50,10 @@ hr{
 }
 
 .navbar{
-    padding : 10px;
+    padding-left : 10px;
+    padding-right: 10px;
+    padding-top : 5px;
+    padding-bottom: 5px;
     margin-left: 0;
     margin-right: 0;
     border-style: solid;
@@ -52,6 +61,7 @@ hr{
     border-width: 2px;
     margin-top: 20px;
     border-radius: 5px;
+    
 }
 
 .navbar-brand{
@@ -64,7 +74,7 @@ hr{
         position: sticky;
         bottom: 0;
         width: 100%;
-        height: 40px;
+        height: 60px;
         line-height: 30px;
         background-color: grey;
         border-top-style: solid;
@@ -77,19 +87,17 @@ hr{
     }
 
     .footerContainer {
-        position: absolute;
-        margin-left: 50%;
+        /* position: relative; */
         color: white;
-        
     }
-
 
 #img1,#img2,#img3,#img4,#img5{
     /* float:left; */
    
     width:250px;
     height:250px;
-    padding: 20px;;
+    padding: 20px;
+    padding-bottom: 5px;
 }
 
 #portfolio-img-container{
@@ -135,8 +143,8 @@ hr{
     /* position:relative; */
     /* left:140px; */
     margin-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 50px;
     padding-top: 15px;
     background-color: white;
@@ -169,6 +177,35 @@ input{
     cursor: pointer;
 }
 
+#cardId{
+    padding-top: 20px;
+}
+#contactCard{
+    padding-top: 25px;
+}
+.card{
+    margin-left: 20%;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 2px;
+}
+
+.repoLink{
+    margin-left: 25%;
+    color: gray;
+}
+
+.container{
+    margin-bottom: 60px;
+}
+
+.card-info{
+    padding-left:15px;
+    padding-bottom: 10px;
+}
+#gitLink,#linkedInLink,#resumeLink{
+    color: gray;
+}
 @media screen and (max-width: 575px){
     .container,.content,.navbar{
         width:100%;
@@ -184,3 +221,7 @@ input{
     max-width: 80%;
 }
 }
+@media screen and (max-width: 768px){
+    .card{
+        margin-left: 4%;
+    }
