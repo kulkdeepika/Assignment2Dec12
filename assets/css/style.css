@@ -93,19 +93,19 @@ hr{
         color: white;
     }
 
-#img1,#img2,#img3,#img4,#img5{
+#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8{
     /* float:left; */
    
     width:250px;
     height:250px;
-    padding: 20px;
+    padding: 20px; 
     padding-bottom: 5px;
+    box-shadow: 6px 6px 6px #333;
 }
 
 #portfolio-img-container{
     position: relative;
     /* float: left; */
-
 }
 
 .overlayText{
